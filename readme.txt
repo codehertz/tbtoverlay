@@ -1,6 +1,3 @@
-tbtoverlay
-==========
-
 1. require jquery
 <script type="text/javascript" src="js/jquery/jquery-1.7.min.js"></script>
 

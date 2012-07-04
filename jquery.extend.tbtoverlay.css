@@ -1,0 +1,49 @@
+#tbtoverlay {
+    display:block;
+    height:100%;
+    width:100%;
+    z-index:1100000000;
+    left:0;
+    top:0;
+    position:fixed;
+    background-image: url("tbtoverlay-bg.png");
+}
+
+#tbtoverlay .loader {
+    display:inline-block;
+    width:16px;
+    height:11px;
+    background-image: url("tbtoverlay-ld.gif");
+}
+
+#tbtoverlay .d1-table {
+    display:table;
+    height:100%;
+    width:100%;
+    table-layout:fixed;
+}
+
+#tbtoverlay .d2-cell {
+    display:table-cell;
+    width:100%;
+    text-align:center;
+    vertical-align:middle;
+}
+
+#tbtoverlay .iframe {
+	display:none;
+    width:640px;
+    height:480px;
+    margin-left:20px; /* to fix .close offset */
+}
+
+#tbtoverlay .close {
+    display:none;
+	width:41px;
+	height:41px;
+	vertical-align:top;
+	margin-top:-20px;
+	margin-left:-20px;
+	cursor:pointer;
+	background-image: url("tbtoverlay-close.png");
+}
