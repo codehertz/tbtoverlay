@@ -10,10 +10,10 @@ tbtoverlay
 ```html
 <script type="text/javascript" src="js/jquery/jquery.extend.tbtoverlay.js"></script>
 <link type="text/css" href="js/jquery/jquery.extend.tbtoverlay.css" rel="stylesheet" />
-html
+```
 
 3. bind event
-```javascript
+```js
 $("#openOverlay").click(function(){
     $.tbtoverlay({
         "width":800,
